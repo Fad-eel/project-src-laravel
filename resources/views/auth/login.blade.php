@@ -7,6 +7,7 @@
   <title>Document</title>
   <link href="{{ asset('css/login.css') }}" rel="stylesheet">
   <script src="{{ asset('js/login.js') }}" defer></script>
+  <link rel="stylesheet" href="{{ asset('css/social.css') }}">
   <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 </head>
 
@@ -73,10 +74,19 @@
                         {{ __('Login') }}
                     </button>
                 </div>
+                
+                </div><br>
+                <div class="social-btn">
+                    <button href="" class="fb-btn">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </button>&nbsp;&nbsp;&nbsp;
+                    <button class="gg-btn">
+                        <i class="fab fa-google"></i> Google
+                    </button>
+                </div><br>
                 <a href="{{ route('register') }}">
                         {{ __('Inscrivez-vous') }}
-                </a>
-                </div>   
+                </a>  
             </form>
         </div>
     </div>

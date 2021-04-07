@@ -181,21 +181,6 @@ a:hover{
 	background-position: right;
 }
 
-.btn-facebook{
-	display: block;
-	width: 100%;
-	height: 50px;
-	border-radius: 25px;
-	outline: none;
-	border: none;
-	font-size: 1.2rem;
-	color: #fff;
-	font-family: 'Poppins', sans-serif;
-	text-transform: uppercase;
-	margin: 1rem 0;
-	cursor: pointer;
-	transition: .5s;
-}
 
 @media screen and (max-width: 1050px){
 	.container{

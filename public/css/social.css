@@ -1,0 +1,27 @@
+.social-btn{
+    display: flex;
+}
+
+.fb-btn{
+    display: block;
+    width: 50%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+    background-color: #3b5998;
+    color: #fff;
+    cursor: pointer;
+}
+
+.gg-btn{
+    display: block;
+    width: 50%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+    background-color: #dd4b39;
+    color: #fff;
+    cursor: pointer;
+}
